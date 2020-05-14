@@ -20,6 +20,7 @@ def gen_geosjon(geometry):
 
 if __name__ == "__main__":
     path = '/Users/weihainan/Documents/waibao/2'
+    path = '/Users/weihainan/Documents/waibao/2'
     all_shape_files = []
     for dirpath, dirnames, filenames in os.walk(path):
         for file in filenames:
